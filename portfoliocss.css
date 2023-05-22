@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: url("https://wallpaperaccess.com/full/5651978.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rightnav {
+  width: 89%;
+  height: 0px;
+  padding: 19px 0px 0px 364px;
+  display: flex;
+}
+.rightnav li {
+  list-style-type: none;
+  margin: 0px 0px 0px 36px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.navb {
+  display: flex;
+}
+.leftnav {
+  width: 11%;
+  padding: 11px 0px 0px 28px;
+}
+.leftnav span {
+  color: crimson;
+}
+.leftnav h1 {
+  font-size: 30px;
+}
+.container {
+  color: black;
+  font-style: italic;
+  padding: 100px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container h1 span {
+  color: crimson;
+}
+.container p {
+  font-size: 20px;
+  padding: 4px 0px 0px 0px;
+}
+.container p span {
+  color: crimson;
+}
+.left-container {
+  width: 50%;
+  padding: 76px 0px 0px 157px;
+}
+.right-container {
+  width: 50%;
+  padding: 0px 0px 0px 0px;
+}
+.right-container img{
+  width: 50%;
+  height: 50%;
+  border-radius: 20px;
+}
+.left-container a{
+    font-size: 26px;
+    padding: 3px 0px 0px 0px;
+    color: #332c3e;
+}
+.rightnav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+  }
+  .line {
+    width: 33px;
+    background-color: #000;
+    height: 4px;
+    margin: 3px 3px;
+  }
+@media(max-width:1171px){
+
+    .left-container {
+      padding: 76px 0px 0px 157px;
+    }
+    .right-container {
+      padding: 0px 0px 0px 0px;
+    }
+}
+@media (max-width:1210px){
+  .rightnav {
+    padding: 10px 0px 0px 490px;
+    display: block;
+  }
+  .burger {
+    right: 5%;
+    top: 15px;
+  }
+  .rightnav li{
+    margin: 10px 0px 0px 36px;
+  }
+  .burger{
+    display: block;
+  }
+ .v-class-resp{
+  opacity: 0;
+ }
+ .left-container{
+  width: 40%;
+ }
+}
+@media(max-width:725px){
+  .container{
+    display: block;
+ }
+ .left-container{
+  width: 75%;
+ }
+}
+@media(max-width:375px){
+  .left-container {
+    padding: 3px 0px 65px 35px;
+  }
+}
+@media(max-width:414px){
+  .left-container {
+    padding: 10px 0px 43px 46px;
+  }
+}
